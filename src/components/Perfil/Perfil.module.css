@@ -1,0 +1,92 @@
+.cuadroExterior{
+    display: flex;
+    width: 20%;
+    height: 96%;
+    padding: 0.5%;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 10px; */
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    align-self: flex-end;
+}
+
+.cuadroInterior{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #979A9C;
+    background: #3861A8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap; */
+}
+
+.letrasPerfil{
+    display: flex;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: calc(0.5vh + 0.5vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin: 2%; */
+
+}
+
+.letrasRol{
+    margin: 0;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: calc(0.6vh + 0.6vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    
+}
+.filaInterior{
+    width: 96%;
+    height: 30%;
+    /* border: 1px solid #1dd855; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 4%;
+    padding-bottom: 2%;
+    
+}
+
+.filaInteriorMedio{
+    width: 86%;
+    height: 68%;
+    /* border: 1px solid #451dd8; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* gap: 15%; */
+    justify-content: space-around; 
+    padding-inline-end: 10%;
+    padding-top: 2%;
+    padding-inline-start: 2%;
+    /* gap:30%; */
+}
+
+.profileImage{   
+    width: calc(2vw + 2vh);
+    height: auto;
+    border: 1px solid #FFF;
+
+    /* object-fit: cover; */
+    align-self: center;
+}
+
+.divImagen{
+    display: flex;
+    /* border: 1px dashed #1dd855; */
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+}
+

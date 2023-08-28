@@ -1,0 +1,72 @@
+.tituloBarra{
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+    justify-content: space-between;
+    border: 1px solid #000;
+    background: #305BB2;
+}
+
+.h1Titulo{
+    font-size: calc(1vh + 1vw);
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: center;
+    text-align: center;
+}
+
+.imgLogo{
+    
+    margin-left: 3%;
+    width: calc(9vh + 7vw);
+    /* height: auto;
+    width: 201px;
+    height: 62px; */
+    /* flex-shrink: 0;  */
+    align-self: flex-start;
+}
+
+.salir{
+    margin-right: 3%;
+    /* margin-top: 5px; */
+    align-self: flex-end;
+    width: calc(3vh + 3vw);
+    /* border: 5px dashed black; */
+    cursor:pointer;
+}
+
+.columnBarra{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    /* border: 5px dashed black; */
+    align-self: end;
+}
+
+.barraSuperior{
+    display: flex;
+    flex-direction: column;
+    /* height: 6%; */
+    width: 100%;
+    margin: 0;
+}
+
+.letras{
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    height: 1%;
+    /* justify-content: space-between; */
+    background: #d7d9f1;
+    /* margin-left: 11.5%; */
+    /* border: 5px dashed black; */
+    /* align-self: flex-end; */
+    margin-inline:auto;
+}
+

@@ -1,0 +1,40 @@
+.divLista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1%;
+    border-radius: 6px;
+    border: 1.543px solid #000;
+    background: #FFF;
+    height: 100%;
+    width: 100%;
+}
+
+.divItemLista{
+    background: #3861A8;
+    padding-inline: 6%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 70%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    filter: drop-shadow(0px 3.408653497695923px 3.408653497695923px rgba(0, 0, 0, 0.25));
+    border-radius: 6px;
+    border: 0.852px solid #000;
+    background: #305BB2;
+}
+
+
+.letraAsignaturaLista{
+    /* border: 0.852px solid #000; */
+    color: #FFF;
+    text-align: center;
+    font-size: calc(0.9vh + 0.9vw);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* -webkit-text-stroke: 0.8px black; */
+}
